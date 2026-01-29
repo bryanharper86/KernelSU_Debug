@@ -55,5 +55,5 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: kernel-Ciri-ARM64
-          path: "${{ env.file_path }}"
+          path: "${{ env.file_path }}" 
           
